@@ -41,5 +41,16 @@ git revert HEAD~2
 	--rebase 
 
 **push** sends changes to a remote repository
+	--force may resolve conflicting histories
 
-git check-ignore
+```bash
+git push origin main
+```
+**check-ignore**
+	-v shows the exact line in the config that makes it ignored
+
+**remote** controls the git remote
+```
+git remote add origin https://github.com/Sietrin/goodies
+git remote remove origin
+```
